@@ -1,0 +1,25 @@
+*th MaY(var)
+
+class personDetails
+{
+    string pname;
+    
+    public void changeName(string n)
+    {
+       pname=n;
+       var name="rajeev";  //var="string"
+       console.WriteLine(name);
+    }
+
+    public static void Main()
+    {
+       var obj=new personDetails();   //var is a keyword to do aliasing of class(Big)
+       obj.pname="deepak";
+       
+        Console.WriteLine(obj.pname);
+
+       obj.changeName("deepak sri");
+       Console.WriteLine(obj.pname);
+    }
+}
+
