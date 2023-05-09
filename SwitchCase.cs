@@ -52,10 +52,14 @@ namespace Switchcase
                     case 3:
                         Console.WriteLine("Enter the number");
                         int n3 = int.Parse(Console.ReadLine());
-
-
-
-
+                        if (n3 > 1 && n3 % 2 != 0)
+                        {
+                            Console.WriteLine("The number is prime number");
+                        }
+                        else
+                        {
+                            Console.WriteLine("The number is not prime number");
+                        }
 
                         break;
                 }
