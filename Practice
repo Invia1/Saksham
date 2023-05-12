@@ -24,3 +24,116 @@ class personDetails
     }
 }
 
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Collections 
+class Employee
+{
+    public int EmpID{get;set;}
+    public string EmpName{get;set;}
+    public int Eage{get;set;}
+}
+
+class HR
+{
+   public Employee EmplyeeDetails()
+    {
+        Employee obj=new Employee();
+        obj.EmpID=101;
+        obj.EmpName="deepa";
+        obj.Eage=21;
+        return obj;
+       }
+}
+
+class Director
+{
+    public static void Main()
+    {
+        HR objHR=new HR();
+       Employee temp=objHR.EmplyeeDetails();
+       
+       Console.WriteLine( temp.EmpID+" "+temp.EmpName+" "+temp.Eage);
+    }
+}
+
+
+
+
+----------------------------------------------
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+class Employee
+{
+    public int EmpID { get; set; }
+    public string EmpName { get; set; }
+    public int Eage { get; set; }
+}
+
+class HR
+{
+    public Employee EmplyeeDetails()
+    {	
+        Employee obj = new Employee();
+        obj.EmpID = 101;
+        obj.EmpName = "deepa";
+        obj.Eage = 21;
+        return obj;
+    }
+}
+
+class Director
+{
+    public static void Main()
+    {
+        HR objHR = new HR();
+        Employee temp = objHR.EmplyeeDetails();
+
+        Console.WriteLine(temp.EmpID + " " + temp.EmpName + " " + temp.Eage);
+    }
+}
+
+-------------------------------------------------------------------------------------
+
+
+
+using System;
+using System.Collections;
+
+
+class DataEntryContact
+{
+    ArrayList objc=new ArrayList();
+    public void AddData()
+    {
+        objc.Add("deepa");
+        objc.Add("deepak");
+
+
+        foreach(var temp in objc)
+        {
+          Console.WriteLine(temp);
+        }
+    }
+
+    public static void Main()
+    {
+       DataEntryContact obj=new DataEntryContact();
+       obj.AddData();
+    }
+}
+https://dotnettutorials.net/lesson/arraylist-collection-csharp/
