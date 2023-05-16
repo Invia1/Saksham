@@ -222,3 +222,57 @@ class user
     }
 }
 
+-------------------------------------------16th MAY
+
+using System;
+using SmallEmployeeApp.Models;
+
+
+namespace SmallEmployeeApp.Service
+{
+    public class EmployeeService
+    {
+
+        List<Employee> objList=new List<Employee>();
+          public int CreateEmployee(Employee emp)
+          {
+            objList.Add(emp);
+            return 1;
+          }
+
+          public List<Employee> GetEmployeeList()
+          {
+            return objList;
+          }
+    }
+}
+
+-------------------------------------------------------
+using System;
+using SmallEmployeeApp.Models;
+using SmallEmployeeApp.Service;
+
+namespace SmallEmployeeApp.UI
+{
+    public class MainApp
+    {
+        public static void Main()
+        {
+          Employee obj=new Employee();
+          obj.EID=101;
+          obj.Ename="Deepti";
+          obj.Age=21;
+
+          EmployeeService es=new EmployeeService();
+          es.CreateEmployee(obj);
+
+
+        List<Employee> objList=es.GetEmployeeList();
+        foreach(var data in objList)
+        {
+            Console.WriteLine(data.EID+" "+data.Ename+" "+data.Age);
+        }
+      }
+      
+    }
+}
