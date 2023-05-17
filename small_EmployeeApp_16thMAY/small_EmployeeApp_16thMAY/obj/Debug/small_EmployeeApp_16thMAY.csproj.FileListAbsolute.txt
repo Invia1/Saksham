@@ -1,0 +1,8 @@
+C:\Users\InviaILC\source\repos\small_EmployeeApp_16thMAY\small_EmployeeApp_16thMAY\obj\Debug\small_EmployeeApp_16thMAY.csproj.AssemblyReference.cache
+C:\Users\InviaILC\source\repos\small_EmployeeApp_16thMAY\small_EmployeeApp_16thMAY\obj\Debug\small_EmployeeApp_16thMAY.csproj.SuggestedBindingRedirects.cache
+C:\Users\InviaILC\source\repos\small_EmployeeApp_16thMAY\small_EmployeeApp_16thMAY\obj\Debug\small_EmployeeApp_16thMAY.csproj.CoreCompileInputs.cache
+C:\Users\InviaILC\source\repos\small_EmployeeApp_16thMAY\small_EmployeeApp_16thMAY\bin\Debug\small_EmployeeApp_16thMAY.exe.config
+C:\Users\InviaILC\source\repos\small_EmployeeApp_16thMAY\small_EmployeeApp_16thMAY\bin\Debug\small_EmployeeApp_16thMAY.exe
+C:\Users\InviaILC\source\repos\small_EmployeeApp_16thMAY\small_EmployeeApp_16thMAY\bin\Debug\small_EmployeeApp_16thMAY.pdb
+C:\Users\InviaILC\source\repos\small_EmployeeApp_16thMAY\small_EmployeeApp_16thMAY\obj\Debug\small_EmployeeApp_16thMAY.exe
+C:\Users\InviaILC\source\repos\small_EmployeeApp_16thMAY\small_EmployeeApp_16thMAY\obj\Debug\small_EmployeeApp_16thMAY.pdb
