@@ -20,7 +20,6 @@ namespace ConsoleApp1
         }
         public void remove_data()
         {
-           
             Console.WriteLine("The updated array list:");
             array.Remove("Lokesh Rana");
             array.RemoveAt(2);
