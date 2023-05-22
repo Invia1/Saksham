@@ -1,0 +1,8 @@
+C:\Users\InviaILC\source\repos\FootballTeam_Assignment\FootballTeam_Assignment\obj\Debug\FootballTeam_Assignment.csproj.AssemblyReference.cache
+C:\Users\InviaILC\source\repos\FootballTeam_Assignment\FootballTeam_Assignment\obj\Debug\FootballTeam_Assignment.csproj.SuggestedBindingRedirects.cache
+C:\Users\InviaILC\source\repos\FootballTeam_Assignment\FootballTeam_Assignment\obj\Debug\FootballTeam_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\InviaILC\source\repos\FootballTeam_Assignment\FootballTeam_Assignment\bin\Debug\FootballTeam_Assignment.exe.config
+C:\Users\InviaILC\source\repos\FootballTeam_Assignment\FootballTeam_Assignment\bin\Debug\FootballTeam_Assignment.exe
+C:\Users\InviaILC\source\repos\FootballTeam_Assignment\FootballTeam_Assignment\bin\Debug\FootballTeam_Assignment.pdb
+C:\Users\InviaILC\source\repos\FootballTeam_Assignment\FootballTeam_Assignment\obj\Debug\FootballTeam_Assignment.exe
+C:\Users\InviaILC\source\repos\FootballTeam_Assignment\FootballTeam_Assignment\obj\Debug\FootballTeam_Assignment.pdb
